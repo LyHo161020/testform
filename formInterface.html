@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>giao diện form</title>
+    <style>
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset style="width:300px">
+        <form action="http://demo.codegym.vn/6/registration_form/register.php" method="post">
+            <p style="font-size: 20px;margin-left: 20px;"><strong>Họ và tên:</strong></p>
+            <input type="text" style="margin-top:-15px;position: absolute;margin-left: 20px;" name="name">
+            <p style="font-size: 20px;margin-left: 20px;margin-top: 30px;"><strong>Email:</strong></p>
+            <input type="text" style="margin-top:-15px;position: absolute;margin-left: 20px;" name="email">
+            <p style="font-size: 20px;margin-left: 20px;margin-top: 30px;"><strong>Giới tính:</strong></p>
+            <input type="text" style="margin-top:-15px;position: absolute;margin-left: 20px;" name="phone">
+            <p style="font-size: 20px;margin-left: 20px;margin-top: 30px;"><strong>Giới tính:</strong></p>
+            <div style="position: absolute;margin-top: -15px;margin-left: 20px;">
+                <input type="radio" name="gender" style="font-size: 50px;"><strong>Nam</strong>
+                <input type="radio" name="gender"><strong>Nữ</strong>
+            </div>
+            <input type="submit" name="submit" value="Đăng ký" style="margin-left:20px;margin-top:20px;background-color: #fff;border-radius: 5px;">
+        </form>
+
+    </fieldset>
+</body>
+
+</html>
